@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: navy;
+}
+
+.name {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu-li {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.menu-li:hover {
+    color: brown;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+.home {
+    background: linear-gradient(to top right, #1e3c72, purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.h-txt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 250px;
+
+}
+
+.h-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    padding-right: 100px;
+}
+
+.character {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.about {
+    background: linear-gradient(to bottom right, #1e3c72, purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.a-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    padding-left: 100px;
+}
+
+.tagline {
+    background-color: antiquewhite;
+    color: black;
+    padding: 0 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.edu {
+    text-decoration: underline;
+
+}
+
+td {
+    text-align: center;
+}
+
+.project {
+    /* padding: 10px 0; */
+    height: 100vh;
+    background: linear-gradient(to top right, #1e3c72, purple);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.p-title {
+    margin-bottom: 40px;
+    /* border: 1px solid black; */
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+    padding: 10px 0;
+    color: white;
+    /* gap: 10px; */
+}
+
+.card {
+    color: black;
+    background-color: lightblue;
+    margin: 0 80px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid brown;
+}
+
+.p-name {
+    /* color: black; */
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.p-description {
+    color: black;
+}
+
+.card:hover {
+    color: brown;
+    box-shadow: 0 0 10px white;
+}
+
+.contact {
+    background: linear-gradient(to bottom right, #1e3c72, purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.c-area {
+    display: flex;
+    gap: 30px;
+    padding: 0 50px;
+}
+
+.contact-card {
+    background-color: white;
+    color: black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+}
+
+.contact-form {
+    width: 60%;
+    
+}
+
+input {
+    width: 80%;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+
+}
+
+button {
+    font-size: 1rem;
+    align-items: center;
+    border-radius: 10px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
